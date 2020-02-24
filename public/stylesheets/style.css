@@ -1,0 +1,47 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #E4ECEF
+}
+
+.flex-container {
+  display: flex;
+  background-color: #E4ECEF;
+  justify-content: center;
+}
+
+.column {
+  background-color: #E4ECEF;
+  margin: 10px;
+  font-size: 30px;
+}
+
+.left > div {
+  background-color: white;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  line-height: 90%;
+}
+
+.text-box {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.norm-text {
+  margin: 5px;
+  font-size: 18px;
+}
+
+.at-text {
+  line-height: 80%;
+  margin: 5px;
+  font-size: 17px;
+  color: silver;
+}
+
+.follow-button {
+  box-sizing: content-box;
+  width: 130px;
+}
